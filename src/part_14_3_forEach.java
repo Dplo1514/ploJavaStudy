@@ -1,7 +1,7 @@
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class part_13_3_forEach {
+public class part_14_3_forEach {
     public static void main(String[] args) {
         String[] apple = {"Mac" , "Watch" , "Pad" , "Phone" , "Mini"};
 

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class part_13_2_array_change {
+public class part_14_2_array_change {
     public static void main(String[] args) {
         String[] menu = {"치킨" ,"파스타" ,"감바스" ,"피자" ,"햄버거"};
         menu[0] = "콜라"; //배열의 요소번호를 인덱스 후 변경값을 지정하면 변경됨.

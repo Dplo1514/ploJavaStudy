@@ -1,4 +1,4 @@
-public class part_13_array {
+public class part_14_array {
     public static void main(String[] args) {
         String[] week = {"월" , "화" , "수" , "목" , "금" , "토" , "일"}; //배열은 type[] array = {a , b , c} 생성
         int b = 0;
