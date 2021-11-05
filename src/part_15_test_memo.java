@@ -33,21 +33,16 @@ public class part_15_test_memo {
                     continue;
                 }
                 System.out.println(filename + "내용을 출력합니다.");
-                System.out.println("종료를 원하시면 exit를 입력해주세요");
 
                 Scanner reader = new Scanner(fileInput);
 
-                while (reader.hasNextLine());{
+                while (reader.hasNextLine()){
                     System.out.println(reader.nextLine());
                 }
+
                 System.out.println("\n");
                 reader.close();
-
-                if (reader.equals("exit")){
-                    System.out.println("파일 읽기를 종료합니다.");
-                    break;
                 }
-            }
 
             //메모 생성 및 쓰기
             else if(tasknum == 2){
@@ -93,9 +88,6 @@ public class part_15_test_memo {
                 System.out.println("프로그램을 종료합니다.");
                 break;
             }
-
-
-
         }
     }
 }
